@@ -19,6 +19,7 @@
     <modules>
         <module>mini-spring-cloud-examples/tutu-server</module>
         <module>mini-spring-cloud-examples/mini-spring-cloud-provider-example</module>
+        <module>mini-spring-cloud-examples/mini-spring-cloud-consumer-examples</module>
         <module>mini-spring-cloud-discovery</module>
     </modules>
 
@@ -48,7 +49,7 @@
 
             <dependency>
                 <groupId>com.github</groupId>
-                <artifactId>mini-spring-cloud-tutu-discovery</artifactId>
+                <artifactId>mini-spring-cloud-discovery</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
